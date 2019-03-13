@@ -13,6 +13,7 @@ import br.com.fiap.loja.bo.EstoqueBOStub.ProdutoTO;
 
 public class TerminalConsulta {
 
+		// Web service client
 	private static Logger log = Logger.getLogger(TerminalConsulta.class);
 
 	public static void main(String[] args) throws RemoteException {
