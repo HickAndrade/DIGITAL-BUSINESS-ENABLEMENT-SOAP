@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import br.com.fiap.loja.bo.EstoqueBO;
 import br.com.fiap.loja.to.ProdutoTO;
 import br.com.fiap.singleton.PropertySingleton;
+// LOJA APP //
 
 public class TerminalConsulta {
 	private static Logger log = Logger.getLogger(TerminalConsulta.class);
