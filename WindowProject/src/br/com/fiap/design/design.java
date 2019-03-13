@@ -75,9 +75,9 @@ public class design {
 					consultar.setCodProd(Integer.parseInt(text.getText()));
 					ConsultaBOResponse response = stub.consultaBO(consultar);
 					ProdutoTO produto = response.get_return();
-					MessageDialog.openInformation(null, "Camiseta encontrada", produto.getDescricao());
+					MessageDialog.openInformation(null, "Camiseta encontrada!", produto.getDescricao());
 				} catch (Exception e2) {
-					MessageDialog.openInformation(null, "Camiseta encontrada", "Error");
+					MessageDialog.openInformation(null, "Camiseta encontrada!", "Error");
 				}
 
 			}
